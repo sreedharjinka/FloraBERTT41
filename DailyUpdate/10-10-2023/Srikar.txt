@@ -1,0 +1,13 @@
+Using Galaxy aligned the Gene-Expressions with corresponding annotations for 
+Details: Zm-Ky21-REFERENCE-NAM-1.0
+cultivar	organism_part	
+ERR3791608	Ky21	base
+ERR3791807	Ky21	shoot
+ERR3791859	Ky21	tassel
+ERR3791480	Ky21	ear
+ERR3791515	Ky21	embryo
+ERR3791710	Ky21	tip
+ERR3791758	Ky21	root
+ERR3791429	Ky21	anther
+ERR3791558	Ky21	endosperm
+ERR3791660	Ky21	middle
