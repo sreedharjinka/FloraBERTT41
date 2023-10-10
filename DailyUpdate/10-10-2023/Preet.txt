@@ -1,0 +1,10 @@
+Sequence Alignment with annotation for the following cultivars from different gene species using HiSat2 tools on Galaxy:
+run_accession	cultivar	organism_part
+ERR3791638	CML277	middle
+ERR3791735	CML277	root
+ERR3791787	CML277	shoot
+ERR3791838	CML277	tassel
+ERR3791688	CML277	tip
+ERR3791407	CML277	anther
+ERR3791457	CML277	ear
+ERR3791586	CML277	base
