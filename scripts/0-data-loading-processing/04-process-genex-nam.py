@@ -21,11 +21,11 @@ from tqdm import tqdm
 import numpy as np
 from Bio import SeqIO
 
-from florabert import config, utils, dataio
+from module.florabert import config, utils, dataio
 
 
 tqdm.pandas()
-pandarallel.initialize(progress_bar=True, verbose=1)
+# pandarallel.initialize(progress_bar=True, verbose=1)
 
 
 GENEX_DIR = (
@@ -34,14 +34,15 @@ GENEX_DIR = (
     / "Normalized_TPMs_each_NAM_line_aligned_against_own_refgen"
 )
 SEQ_DIR = config.data_processed / "Maize_nam"
-B73_DIR = config.data_processed / "Maize" / "Zmb73"
+B73_DIR = config.data_processed / "Maize_nam" / "zmb73"
 FOLDS_FILE = config.data_final / "nam_data" / "gene_data_folds.pkl"
 OUTFILE_ALL_FOLDS = config.data_final / "nam_data" / "merged_seq_genex.csv"
 OUTDIR_TRANSFORMER = config.data_final / "transformer" / "genex" / "nam"
 
 
 def load_cultivar_seqs(cultivar: str):
-    files = list((SEQ_DIR / f"zm-{cultivar.lower()}").glob("*.fa"))
+    path = SEQ_DIR / f"zm{cultivar.lower()}" / f"Zm-{cultivar}"
+    files = list(path.glob("*.fa"))
     if len(files) >= 1:
         fname = files[0]
         with fname.open("r") as f:
@@ -86,7 +87,9 @@ def filter_genex_values(df: pd.DataFrame) -> pd.DataFrame:
     #             return True
     #     return False
     # return df.copy()[df.apply(keep_row, axis=1)]
-    pseudogenes = find_pseudogenes(df)
+    # pseudogenes = find_pseudogenes(df)
+    pseudogenes = (df[config.tissues] < 1).all(axis=1)
+    print(pseudogenes)
     return df.loc[~pseudogenes, :].copy()  # .copy() avoids chained assignment
 
 
@@ -101,7 +104,7 @@ def find_pseudogenes(df: pd.DataFrame) -> pd.Series:
 
 def load_genex(fname: PosixPath) -> pd.DataFrame:
     df_genex = pd.read_csv(fname, sep="\t")
-    df_genex = df_genex.groupby("organism_part").parallel_apply(avg_genex_values)
+    df_genex = df_genex.groupby("organism_part").apply(avg_genex_values)
 
     # Transposing so the genes are rows and the tissues are columns
     df_genex = df_genex[

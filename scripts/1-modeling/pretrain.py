@@ -21,10 +21,10 @@ def main():
         output_dir=OUTPUT_DIR,
         model_name="roberta-lm",
     )
-
-    settings = utils.get_model_settings(config.settings, args.model_name)
-
     print(args)
+
+    settings = utils.get_model_settings(config.settings, args, args.model_name)
+
 
     config_obj, tokenizer, model = tr.load_model(
         args.model_name,
@@ -49,7 +49,6 @@ def main():
     data_collator = dataio.load_data_collator(
         "language-model",
         tokenizer=tokenizer,
-        mlm_prob=config.settings["training"]["pretrain"].pop("mlm_prob"),
     )
 
     training_settings = config.settings["training"]["pretrain"]
