@@ -2,15 +2,15 @@
 """
 from tokenizers import ByteLevelBPETokenizer
 
-from florabert import config
+from module.florabert import config
 
 
-SETTINGS = config.settings["transformer"]["tokenizer"]
+SETTINGS = config.settings["tokenizer"] # previously config.settings["transformer"]["tokenizer"]
 TOKENIZER_DIR = config.models / "byte-level-bpe-tokenizer"
 if not TOKENIZER_DIR.exists():
     TOKENIZER_DIR.mkdir()
 DATA_DIR = config.data_final / "transformer" / "seq"
-TRAIN_DATA = DATA_DIR / "all_seqs_train_sample.txt"
+TRAIN_DATA = DATA_DIR / "all_seqs_train_sample.txt" # possibly points to data from 3rd step
 SPECIAL_TOKENS = ["<s>", "</s>", "<pad>", "<unk>", "<mask>"]
 
 
