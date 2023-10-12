@@ -1,0 +1,25 @@
+Project Title:
+FloraBERT: Cross-Species Transfer Learning with Attention-Based Neural Networks for Gene Expression Prediction
+
+Timeline: September 19, 2023, to October 9, 2023
+
+Overall Objective: To develop and implement FloraBERT for gene expression prediction, utilizing data from Ensembl, RefSeq, and MaizeGDB.
+
+
+September 19-23, 2023 (5 days):
+During this period, I focused on familiarizing myself with the research paper titled "FloraBERT." I allocated extra time, as it's crucial to thoroughly understand the paper's concepts and methodologies to implement them effectively in our project.
+
+September 24-26, 2023 (3 days):
+After gaining a solid understanding of the research paper, I moved on to explore the corresponding GitHub repository of FloraBERT. This step allowed me to get insights into the codebase and understand how the project is structured. I noted that some essential components were missing or incomplete in the repository.
+
+September 27-29, 2023 (3 days):
+Given the gaps in the GitHub repository, I invested time in researching how to obtain the necessary data required for our project. This involved looking into various sources, including Ensembl, RefSeq, and MaizeGDB, to ensure we have the right datasets for our gene expression prediction task. This phase required additional days due to the complexity of data retrieval.
+
+September 30, 2023 (1 day):
+I successfully downloaded the required datasets from Ensembl, RefSeq, and MaizeGDB. This step was crucial to have the necessary data for training and testing our models.
+
+October 3 - 5 (3 days): 
+I focused on preprocessing the collected data. I utilized the code provided in the FloraBERT repository, which was adapted for use on Google Colab.
+
+October 6 - 9 (4 days):
+I worked on utilizing the aligned gene sequences with annotations for the species Tzi8, P39, and Oh43. I used the Usegalaxy platform to align the gene sequences and integrate the corresponding annotations. This step was crucial for ensuring that our gene expression prediction model could work with accurate and well-annotated data for these specific species. 

@@ -1,0 +1,489 @@
+﻿commit f220a2b56b69a7290a592f223185b2e5a8b03b97
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Wed Oct 11 19:50:54 2023 +0530
+
+    Update requirements.txt
+
+commit 266946df817437184451aba3a999684e4f462c39
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Wed Oct 11 19:44:52 2023 +0530
+
+    Update requirements.txt
+
+commit 586741d35896960656a1609ca2914089502b0c57
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Wed Oct 11 19:33:55 2023 +0530
+
+    Update requirements.txt
+
+commit de2b40dbc1028b0d4039089a2fc709b603bfb00d
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Wed Oct 11 19:25:53 2023 +0530
+
+    Update requirements.txt
+
+commit 4f54f569ba9f11b562e115ef6be6b9ef4bbe2298
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Wed Oct 11 19:01:44 2023 +0530
+
+    Update requirements.txt
+
+commit 73d734afbb29dcae13b132f9dc98a608a98f2b10
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Wed Oct 11 18:42:34 2023 +0530
+
+    Update requirements.txt
+
+commit 0e281187570e33cdeaf686b858e3332b3914efcc
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Wed Oct 11 17:44:37 2023 +0530
+
+    Update requirements.txt
+
+commit 1772ef1c1c99cba064fb32d9591b7b9ed14ce832
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Wed Oct 11 15:42:44 2023 +0530
+
+    Update requirements.txt
+    
+    new versions
+
+commit 836223c170a742fa9f87fedbd4d23b4fe9ce7670
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Wed Oct 11 15:28:43 2023 +0530
+
+    Update requirements.txt
+    
+    removed explicit versions
+
+commit c9d017a29da9f00201324db25e377db786d27fec
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Tue Oct 10 14:03:26 2023 +0530
+
+    Update utils.py
+    
+    changed model_name to "roberta-lm" for pretrain.py
+
+commit 0427c7043e3921e821ded0723758f76ba1e0fb36
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Tue Oct 10 14:01:31 2023 +0530
+
+    Update pretrain.py
+    
+    revert change if necessary
+
+commit 48fa658b96ccd980b930e28e036bef1fea09c056
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Tue Oct 10 13:59:29 2023 +0530
+
+    Update config.yaml
+    
+    changed code for pretrain.py; revert if necessary
+
+commit d670944a43f5e75db3877db2c729f20848e3ca30
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Tue Oct 10 13:58:25 2023 +0530
+
+    Update training.py
+    
+    changed code for pretrain.py; check code before change if necessary
+
+commit 7b1d28670957b6800f06c4e851d744dc31a7438b
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Tue Oct 10 11:42:00 2023 +0530
+
+    Update models.py
+    
+    updated import statements
+
+commit 18214691d286e21403bcdb23895b211e61934892
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Oct 9 23:14:29 2023 +0530
+
+    Update pretrain.py
+
+commit 0aa9f181224cd8daedfc746398b28ffbaad0fd71
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Oct 9 21:02:58 2023 +0530
+
+    Update 04-process-genex-nam.py
+    
+    changed logic
+
+commit 7dfbd5eb9badfb4a6c430e1e239ef112427e7ab0
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Oct 9 21:01:41 2023 +0530
+
+    Update 08-train-preprocessor.py
+    
+    changed logic
+
+commit cf6830d27a5f021e4747910d6f1d4aca8b74540c
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Oct 9 13:39:34 2023 +0530
+
+    Added tsv file back
+
+commit 7e0ca8c03f6abb4f613fc5c5b986055930116ab2
+Author: Gurveer-virk <gurveervirk.15517@gmail.com>
+Date:   Mon Oct 9 11:04:15 2023 +0530
+
+    added processed fa files
+
+commit d466847b35e73b16edf2666022652bf2bf79fc9a
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Oct 9 10:58:58 2023 +0530
+
+    Update 04-process-genex-nam.py
+
+commit 429fcaea8bf605d3deb9d1cddb93c87225fbbf49
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Oct 9 10:54:49 2023 +0530
+
+    Update 04-process-genex-nam.py
+    
+    removed pandarallel_apply
+
+commit f88910e4045f910555c3d31800f3a97fb991d234
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Oct 9 10:53:31 2023 +0530
+
+    updated and fixed format
+
+commit 3e749d19d5099d1230f96cb50c11c4378085eed2
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Oct 9 10:00:56 2023 +0530
+
+    Add files via upload
+
+commit f7bd8e251f0c7103ea772238aeaf8582a78db885
+Author: Gurveer-virk <gurveervirk.15517@gmail.com>
+Date:   Sun Oct 8 21:26:21 2023 +0530
+
+    Improved structure and added files
+
+commit b8d5160d3600acc7d0bc8f80a0838672ebb71ad2
+Author: Gurveer-virk <gurveervirk.15517@gmail.com>
+Date:   Sun Oct 8 20:54:56 2023 +0530
+
+    fixed paths
+
+commit 6c9a4fe6926a27f5275ecacd42c691f6f2b7456b
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Sun Oct 8 20:28:08 2023 +0530
+
+    Fourth code data
+
+commit 235a764a6b4622c51a7ca63945224171cbc18f35
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Fri Oct 6 19:56:16 2023 +0530
+
+    changed paths of BPE files
+
+commit 3785dec332054cbf2ef62fdf01c96a5f344661ae
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Fri Oct 6 19:49:53 2023 +0530
+
+    BPE Related files
+    
+    from 07 code under 01 module
+
+commit 9f9c6f48d402241612efb7b4e379fc4c2bae5174
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Thu Oct 5 19:51:31 2023 +0530
+
+    Update 07_train_tokenizer.py
+    
+    changed(rectified) paths
+
+commit 1c66f02f21cb9ed02f6f1d244144b44852388442
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Thu Oct 5 13:04:16 2023 +0530
+
+    Update 07_train_tokenizer.py
+    
+    added points
+
+commit 37f8060128519ec242a60c2c26ce28972e2982dc
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Tue Oct 3 23:17:27 2023 +0530
+
+    Create unique_orgs_runs.tsv
+    
+    added unique data
+
+commit 2fa4ff3686d82e0d19a840e4bb879ec9b9030a6a
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Sat Sep 30 23:21:50 2023 +0530
+
+    Update SRA_Genex_Preprocessing.py
+    
+    removed irrelevant data
+
+commit 00a3b16190cb9873bc94b08652bc74050aa5e687
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Sat Sep 30 23:21:17 2023 +0530
+
+    tsv files
+    
+    files used as input in python scripts for sample lists
+
+commit 3e34eb1c1f3933da96372f00be25b6e0b75cff73
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Sat Sep 30 23:20:10 2023 +0530
+
+    Code for sample lists
+    
+    used to create the combined output tsv files
+
+commit 0674bf7b27b4347c49559da1d925fa2edb0d0b92
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Sat Sep 30 23:18:40 2023 +0530
+
+    Sample List for 3RD Module
+    
+    mapped relevant data in separate files
+
+commit d6294bcc21ce07c59656a31b9a81f058dc3b05ab
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Fri Sep 29 14:11:05 2023 +0530
+
+    Updated README.md
+
+commit 8b0f9f4ecba220e55d54a32e1630618c340e71ff
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Wed Sep 27 14:52:03 2023 +0530
+
+    Updated README.md
+
+commit 4c9cc3b784dea43a38eeb13d32798dcc5670604a
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Wed Sep 27 12:26:38 2023 +0530
+
+    Update 05-cluster-maize_seq.sh
+
+commit 55014a8d9acb9b8407f7c59c5bf1a8ec581f840e
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Wed Sep 27 11:56:21 2023 +0530
+
+    Update 03-combine-databases.py
+    
+    Grammatical errors taken care of
+
+commit da6a548b25432afcb962e20aa81969cd0792676f
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Wed Sep 27 11:54:36 2023 +0530
+
+    Update 03-combine-databases.py
+    
+    Made changes to make code work with my data
+    Revert changes if needed
+
+commit 06f3edadb882a9cb1e6593bdc2c77097efb90697
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Wed Sep 27 10:36:43 2023 +0530
+
+    Updated README.md
+
+commit b3f560ffc2e00ac266b75f6ef12f3715e4577aed
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Tue Sep 26 20:55:18 2023 +0530
+
+    Updated README.md
+
+commit 932ac42ab3d9601d113a1ca33f85b702ea338918
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Tue Sep 26 11:15:35 2023 +0530
+
+    MaizeGDB links
+    
+    Only for NAM lines as per supplementary info
+
+commit e1a9e4b6f4413bda8e1a7fe5113dc4c5e2926d75
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 23:48:29 2023 +0530
+
+    Updated README.md
+
+commit 54f5acb49ef8f78c16e7e7aefe8e30b89eccee94
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 23:47:23 2023 +0530
+
+    Updated README.md
+
+commit a2fdbf0e54f2cfb82d2d35235f8937ad985f398b
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 23:46:12 2023 +0530
+
+    Updated README.md
+
+commit d33243a101cb5ab792238149d4207918c87253f7
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 23:45:44 2023 +0530
+
+    Updated README.md
+
+commit ab1d2dce5f76403b4817468897c42a0a65270b9a
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 23:21:56 2023 +0530
+
+    Update README.md
+    
+    zip file IMP
+
+commit 93e4fc03dceee6d54fe22f492a76a3cbb0a6509a
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 20:41:26 2023 +0530
+
+    Update ensembl_link.csv
+    
+    removed large files
+
+commit 4d26771f0de682c26b4e83767c43a4f14cbbe166
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 20:40:59 2023 +0530
+
+    Update refseq_link.csv
+    
+    removed absent link
+
+commit 99e6c77209f0aea03183d5bb68d1d685ae6382d5
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 19:39:01 2023 +0530
+
+    code to filter csv files by link file sizes
+
+commit 82ce687fbba53977d0fa937edeae5749b2974292
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 19:37:33 2023 +0530
+
+    Update ensembl_link.csv
+    
+    filtered files as gene_link size <= 620 MB
+
+commit f1d12e88f7f911576454cf3ca4da200559512613
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 17:15:17 2023 +0530
+
+    Update refseq_link.csv
+    
+    removed absent links
+
+commit 9c66fd62214777ccc779f95e0adf8a8f854e34ce
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 15:11:31 2023 +0530
+
+    Update refseq_link.csv
+    
+    removed absent links
+
+commit d992460a3943d90efb38aa976481c464d5f386bc
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 12:32:13 2023 +0530
+
+    Update refseq_link.csv
+    
+    removing absent links
+
+commit b59e7d1f2fe4b08229f4a285fd2d2d274330156a
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 10:54:07 2023 +0530
+
+    Update refseq_link.csv
+    
+    removed non-existent
+     links
+
+commit c7a472c000c8d9310a12ecfe8af29f8211859a8d
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 09:56:53 2023 +0530
+
+    Update 09-prepare-nam_metadata.py
+
+commit 6410c5f2136389a28f0be0ba9869f29010983380
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 09:56:44 2023 +0530
+
+    Update 08-train-preprocessor.py
+
+commit a85f1e24b77b16ebcb2ff1d169b02cc02a4b7bbb
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 09:56:33 2023 +0530
+
+    Update 07_train_tokenizer.py
+
+commit 8d1ef1b804ad9c95364f81903c1e9ab9a1f9336e
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 09:56:23 2023 +0530
+
+    Update 06-train-test-split.py
+
+commit 7b10383fffac7547d23e8a8f99d208e6d7c1f154
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 09:56:13 2023 +0530
+
+    Update 04-process-genex-nam.py
+
+commit 027aeb4202bf545fb6608385d3013ee9c5808202
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 09:56:00 2023 +0530
+
+    Update 03-combine-databases.py
+
+commit 52315d7e2212f66eff4b189bcbbea9b41a0c6e70
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 09:55:38 2023 +0530
+
+    Update 02-download-process-db-data.py
+
+commit 3151c94353b3b2e5c3a2aceead04ed8505e445d9
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 09:55:20 2023 +0530
+
+    Update 01-gene-expression.py
+
+commit dcfe10e52f89f7279998568cbe1daff81b6d03b3
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 09:54:53 2023 +0530
+
+    Update requirements.txt
+
+commit c09858c3506ddf7dc741bfaa2beeee6666058ca2
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 07:04:40 2023 +0530
+
+    Update FloraBERT.ipynb
+
+commit 50ec0a3fec9be5e659100ff2c6343345b4c7d8c3
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Mon Sep 25 07:03:41 2023 +0530
+
+    Created using Colaboratory
+
+commit f678c807af567b293c1ed065a030ecf5a7ed0056
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Sun Sep 24 23:05:51 2023 +0530
+
+    adding csv files for data loading
+    
+    CSV files testing required
+
+commit 02f0142c9fe45b1b0d038693e16063e2a8561e55
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Sun Sep 24 23:04:38 2023 +0530
+
+    adding 'gz_link' sub-directory
+
+commit 6c0a946414bae58fa2358e9009cbef630033a58a
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Sun Sep 24 23:01:56 2023 +0530
+
+    adding files used to get links from DB's
+    
+    Codes for 'Ensembl' and 'RefSeq' (Kindly ignore irrelevant comments)
+
+commit eb420fb15bebfbcf59e22de9432705137566bdcd
+Author: Gurveer Singh Virk <110109294+gurveervirk@users.noreply.github.com>
+Date:   Sun Sep 24 22:55:18 2023 +0530
+
+    name changed from 'inari' to 'florabert'
