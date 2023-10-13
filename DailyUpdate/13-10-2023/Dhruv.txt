@@ -1,15 +1,16 @@
-Using use galaxy aligned the Gene sequences of : Zm-NC350-REFERENCE-NAM-1.0
-more details on NC350 :
+Using use galaxy aligned the Gene sequences of : Zm-OH7b-REFERENCE-NAM-1.0
+more details on OH7b :
 
 run_accession	cultivar	organism_part
 
-ERR3791523	NC350	embryo
-ERR3791618	NC350	base
-ERR3791670	NC350	middle
-ERR3791720	NC350	tip
-ERR3791768	NC350	root
-ERR3791870	NC350	tassel
-ERR3791439	NC350	anther
-ERR3791489	NC350	ear
-ERR3791569	NC350	endosperm
-ERR3791817	NC350	shoot
+ERR3791531	Oh7b	embryo
+ERR3791575	Oh7b	endosperm
+ERR3791727	Oh7b	tip
+ERR3791774	Oh7b	root
+ERR3791823	Oh7b	shoot
+ERR3791876	Oh7b	tassel
+ERR3791446	Oh7b	anther
+ERR3791494	Oh7b	ear
+ERR3791626	Oh7b	base
+ERR3791676	Oh7b	middle
+florabert/helper_files/unique_orgs_runs.tsv at main · gurveervirk/florabert
