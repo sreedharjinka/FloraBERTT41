@@ -1,0 +1,32 @@
+Project Title: FloraBERT: Enhancing Gene Expression Prediction Across Different Species
+
+Project Timeline: September 19, 2023, to October 9, 2023
+
+Overall Goal: Our main aim is to create a model called FloraBERT, which will help us predict gene activity in various organisms. We will use data from different sources, such as Ensembl, RefSeq, and MaizeGDB, to improve our understanding of how genes work in different species.
+
+Project Steps:
+
+September 19-23, 2023 (5 days):
+
+First, we read and understood a research paper called "FloraBERT." This was important to get the ideas and methods used in the paper.
+
+September 24-26, 2023 (3 days):
+
+Next, we looked at the code used in the FloraBERT project on GitHub. This helped us understand how the project was organized and identified what parts were missing or needed improvement.
+
+September 27-29, 2023 (3 days):
+
+We spent time finding and collecting the data we needed for our project from places like Ensembl, RefSeq, and MaizeGDB. This step took a while because it can be complex to find the right data.
+
+September 30, 2023 (1 day):
+
+We successfully downloaded the necessary data from Ensembl, RefSeq, and MaizeGDB. This was a big achievement because it gave us the data we needed to teach and test our models.
+
+October 3 - 5, 2023 (3 days):
+
+We prepared the data for our models by cleaning it and making it ready for analysis. We used some code from the FloraBERT project to help with this step.
+
+October 6 - 9, 2023 (4 days):
+
+In this phase, we aligned and combined gene information for specific species like HP301, IL14H, Ki3 and Ki11. We used a platform called Usegalaxy to make sure our gene data was accurate and complete. This was important for predicting gene activity in these specific species.
+These steps help us work systematically to create FloraBERT and use it to understand how genes work in different organisms.
