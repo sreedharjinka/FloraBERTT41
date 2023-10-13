@@ -1,0 +1,15 @@
+Using use galaxy aligned the Gene sequences of : Zm-Ms71-REFERENCE-NAM-1.0
+here are more details about Ms71 : 
+
+run_accession	cultivar	organism_part
+
+ERR3791437	Ms71	anther
+ERR3791521	Ms71	embryo
+ERR3791617	Ms71	base
+ERR3791766	Ms71	root
+ERR3791816	Ms71	shoot
+ERR3791868	Ms71	tassel
+ERR3791568	Ms71	endosperm
+ERR3791669	Ms71	middle
+ERR3791719	Ms71	tip
+ERR3791487	Ms71	ear

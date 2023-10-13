@@ -1,0 +1,25 @@
+Project Title:
+FloraBERT: Cross-Species Transfer Learning with Attention-Based Neural Networks for Gene Expression Prediction
+
+Timeline: September 19, 2023, to October 9, 2023
+
+Overall Objective: To develop and implement FloraBERT for gene expression prediction, utilizing data from Ensembl, RefSeq, and MaizeGDB.
+
+September 19-23, 2023 (5 days):
+We read and understood a research paper called "FloraBERT" to get ideas.
+
+September 24-26, 2023 (3 days):
+We looked at the code used in the FloraBERT project on GitHub to see how it was made.
+
+September 27-29, 2023 (3 days):
+We collected the information we needed from places like Ensembl, RefSeq, and MaizeGDB. This part was tricky because it's hard to find the right data.
+
+September 30, 2023 (1 day):
+We successfully got the data we needed from Ensembl, RefSeq, and MaizeGDB. This was a big step because it gave us the data to teach our models.
+
+October 3-5, 2023 (3 days):
+We prepared the data for our models by cleaning it and making it ready for analysis. We used some code from the FloraBERT project for this.
+
+October 6-9, 2023 (4 days):
+We combined gene information for specific animals and plants, like HP301, IL14H, Ki3, and Ki11. We used a platform called Usegalaxy to make sure our gene data was correct. This was important for understanding how genes work in these species.
+These steps helped us build FloraBERT and use it to study genes in different animals and plants.
