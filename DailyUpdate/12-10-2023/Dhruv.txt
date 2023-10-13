@@ -1,15 +1,15 @@
-Using use galaxy aligned the Gene sequences of : Zm-NC350-REFERENCE-NAM-1.0
-more details on NC350 :
+Using use galaxy aligned the Gene sequences of : Zm-NC358-REFERENCE-NAM-1.0
+more details on NC358 :
 
 run_accession	cultivar	organism_part
 
-ERR3791523	NC350	embryo
-ERR3791618	NC350	base
-ERR3791670	NC350	middle
-ERR3791720	NC350	tip
-ERR3791768	NC350	root
-ERR3791870	NC350	tassel
-ERR3791439	NC350	anther
-ERR3791489	NC350	ear
-ERR3791569	NC350	endosperm
-ERR3791817	NC350	shoot
+ERR3791442	NC358		anther
+ERR3791490	NC358		ear
+ERR3791528	NC358		embryo
+ERR3791571	NC358		endosperm
+ERR3791672	NC358		middle
+ERR3791770	NC358		root
+ERR3791819	NC358		shoot
+ERR3791621	NC358		base
+ERR3791722	NC358		tip
+ERR3791871	NC358		tassel
