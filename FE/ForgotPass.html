@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        .nav-link a{
+            color: black;
+            font-size: 25px;
+        }
+        .navbar-brand{
+            font-size: 50px;
+        }
+        a {
+            text-decoration: none;
+        }
+        table,th,tr,td,thead,tbody{
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+    padding: 10px;
+    margin: 3px;
+}
+footer{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px !important;
+}
+    </style>
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/41c8427d17.js" crossorigin="anonymous"></script>
+    <header >
+        <nav class="navbar navbar-expand px-2 "style="background-color: rgb(4, 224, 121); height: 10vh; font-size: 15px;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./navbar-brand.png" alt="Bootstrap"  height="60" style="border-radius: 50%;" class="d-inline-block align-text-bottom">
+                    FloraBERT
+                </a>
+            </div>
+                <div class="collapse navbar-collapse " id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0 ">
+                        <li class="nav-link" id="home">
+                            <a href="./Home.html" >Home</a>
+                        </li>
+                        <li class="nav-link" id="output">
+                            <a href="./Output.html" >Output</a>
+                        </li>
+                        <li class="nav-link" id="login">
+                            <a href="#" >Login</a>
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid g-0 p-0 ms-0 me-0">
+        <div class="row m-0 g-0 p-0">
+            <div class="col-2 g-0 p-0 ms-0 me-0 "></div>
+            <div class="col-8 g-0 p-0 ms-0 me-0 mt-3 mb-auto p-5">
+                <div class="container " id="main" style="max-width: 50%;">
+                    <form class="mx-5 w-80" style="text-align: center;">
+                       <h1>Reset Password</h1>
+                        <div class="form-floating my-2">
+                          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                          <label for="floatingInput">Email address</label>
+                        </div>
+                        
+                        <button class="btn btn-primary w-100 py-2 mt-2 mb-3" type="submit">Next</button>
+                    </form>
+                </div>
+                <div class="container fixed-bottom mb-0">
+                    <footer
+                        class="d-flex flex-wrap justify-content-center align-items-center py-3 border-top overflow-hidden">
+
+                        <ul class="col-md-4 justify-content-center align-items-center list-unstyled d-flex">
+                            <li class="ms-3"><a class="text-body-secondary mx-5" href="#">
+                                    <img src="./github.svg" alt="" height="32px">
+                                </a></li>
+                            <li class="ms-3"><a class="text-body-secondary mx-5" href="#">
+                                    <img src="./kaggle.svg" alt="" height="32px">
+
+                                </a></li>
+                            <li class="ms-3"><a class="text-body-secondary mx-5" href="#">
+                                    <img src="./huggingface.svg" alt="" height="32px">
+
+                                </a></li>
+                        </ul>
+                    </footer>
+                </div>
+            </div>
+            <div class="col-2 g-0 p-0 ms-0 me-0 ">
+                
+            </div>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalTitleId"
+                aria-hidden="true" style="height: 60vh;">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content" style="width: 80vh;">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalTitleId">Upload Data</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- <div class="container-fluid">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">Source</span>
+                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                            </div> -->
+
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary">
+                                <label for="file">Upload File</label>
+                                <input type="file" name="file" class="form-control" placeholder="Username" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                            </button>
+                            <button type="button" class="btn btn-secondary" id="remoteFile">Choose Remote File</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Paste/Fetch
+                                Data</button>
+                            <button type="button" class="btn btn-primary">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                var modalId = document.getElementById('modalId');
+                var remoteFile = document.getElementById('remoteFile');
+                const modalBody = document.querySelector('.modal-body');
+
+                remoteFile.addEventListener('click', function () {
+                    modalBody.innerHTML = `
+                    <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1"><a href="https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/" target="_blank">Ensemble</a></span>
+                                <span class="input-group-text" id="basic-addon1"><a href="https://ftp.ncbi.nlm.nih.gov/genomes/refseq/plant/" target="_blank">RefSeq</a></span>
+                                <span class="input-group-text" id="basic-addon1"><a href="https://download.maizegdb.org/" target="_blank">MaizeGDB</a></span>
+                    </div>
+                    `;
+                });
+                handleHome = (e) => {
+                    e.preventDefault();
+                    document.getElementById('main').innerHTML = `
+                    <h2>FloraBERT: A Genomic Language Model</h2>
+                    <p>
+                        <b>1. Purpose:</b>
+                        Genomic Sequence Analysis: FloraBERT appears to be tailored for tasks involving the analysis of
+                        genetic
+                        sequences, such as DNA and RNA.
+                        Bioinformatics Applications: The model is likely used for various bioinformatics applications,
+                        including
+                        species differentiation, positional importance analysis, k-mer analysis, and gene expression
+                        prediction.
+                        <br>
+                        <b>2. Components:</b>
+                        Transformer Architecture: The model is built on a transformer architecture, a type of neural network
+                        architecture known for its effectiveness in processing sequential data.
+                        Pretrained Model: The code references loading a pretrained model for genomic analysis, suggesting
+                        that
+                        the model has undergone training on a large dataset.
+                        <br>
+                        <b>3. Potential Use Cases:</b>
+                        Genomic Research: FloraBERT is likely beneficial for researchers in genomics, aiding in tasks
+                        related to
+                        understanding genetic sequences, identifying species, and uncovering insights from genomic data.
+                        Agricultural Studies: Applications may extend to agriculture, including the analysis of cultivars
+                        and
+                        understanding genetic factors related to crops.
+                    </p>
+                    `
+            }
+            handleOutput = (e)=>{
+                e.preventDefault();
+                document.getElementById('main').innerHTML = `
+                <h1>Feature Visualization</h1>
+                    <div class="mx-5 ">
+                        <div class="container-fluid ">
+                          <h3 class=" fw-bold">Input: Oh47</h3>
+                          <h3 class=" fw-bold">Output:</h3>
+                          <div class="fv">
+                            <table id="table ">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Cultivar</th>
+                                        <th scope="col">Part</th>
+                                        <th scope="col">TPM</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Oh47</td>
+                                        <td>Shoot</td>
+                                        <td>1.2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Oh47</td>
+                                        <td>root</td>
+                                        <td>0.2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Oh47</td>
+                                        <td>Stem</td>
+                                        <td>0.72</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Oh47</td>
+                                        <td>leaf</td>
+                                        <td>0.82</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Oh47</td>
+                                        <td>bud</td>
+                                        <td>0.05</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        </div>
+                      </div>
+                `
+            }
+
+            </script>
+
+        </div>
+    </div>
+</body>
+
+</html>
