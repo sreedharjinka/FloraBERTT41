@@ -16,13 +16,7 @@ app.use(
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCh4ZnWWW2HamLnh4QT84yCVqGBc4zUFhg",
-    authDomain: "testapp-c9a4c.firebaseapp.com",
-    databaseURL: "https://testapp-c9a4c-default-rtdb.firebaseio.com",
-    projectId: "testapp-c9a4c",
-    storageBucket: "testapp-c9a4c.appspot.com",
-    messagingSenderId: "8298539069",
-    appId: "1:8298539069:web:3c8d94560ce08d11dbe254"
+    //
 };
 const firebaseApp = initializeApp(firebaseConfig);
 const port = 5000;
