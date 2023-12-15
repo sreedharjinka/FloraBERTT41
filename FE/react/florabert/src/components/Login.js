@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
+
 const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -8,27 +9,15 @@ const Login = () => {
 
     const handleLogin = async (e) => {
         e.preventDefault();
-
-        try {
-            const response = await fetch('/login', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ email, password }),
-            });
-
-            if (response.ok) {
-                sessionStorage.setItem('isLoggedIn', true);
-                setMessage('Login successful');
-            } else {
-                const data = await response.json();
-                setMessage(data.message);
-            }
-        } catch (error) {
-            setMessage('An error occurred');
-        }
+        const res = await fetch('/api/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ email, password }),
+        });
     };
+
 
     return (
         <React.Fragment>
