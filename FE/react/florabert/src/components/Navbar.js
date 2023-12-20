@@ -18,9 +18,9 @@ const Navbar = () => {
             <li className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}>
               <Link to="/">Home</Link>
             </li>
-            <li className={`nav-link ${location.pathname === '/output' ? 'active' : ''}`}>
+            {/* <li className={`nav-link ${location.pathname === '/output' ? 'active' : ''}`}>
               <Link to="/output">Output</Link>
-            </li>
+            </li> */}
             <li className={`nav-link ${location.pathname === '/login' ? 'active' : ''}`}>
               <Link to="/login">Login</Link>
             </li>

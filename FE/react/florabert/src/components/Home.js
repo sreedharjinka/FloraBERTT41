@@ -4,6 +4,7 @@ import Toolsidebar from './Toolsidebar';
 import About from './About';
 import Footer from './Footer';
 import History from './History';
+import Output from './Ouput';
 const Home = () => {
     return (
         <React.Fragment>
@@ -13,7 +14,8 @@ const Home = () => {
                         <Toolsidebar />
                     </div>
                     <div class="col-8 g-0 p-0 ms-0 me-0 mt-3 mb-auto p-5">
-                        <About />
+                        {/* <About /> */}
+                        <Output />
                         <Footer />
                     </div>
                     <div class="col-2 g-0 p-0 ms-0 me-0 ">

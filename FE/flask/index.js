@@ -1,6 +1,6 @@
 const express = require('express');
 const { initializeApp } = require("firebase/app");
-const { getAuth, createUserWithEmailAndPassword } = require("firebase/auth");
+const { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } = require("firebase/auth");
 const cors = require('cors'); // Import the cors middleware
 const bodyParser = require('body-parser');
 const app = express();
@@ -14,13 +14,17 @@ app.use(
 
 // Your existing code...
 
-
 const firebaseConfig = {
-    //
+    apiKey: "AIzaSyCh4ZnWWW2HamLnh4QT84yCVqGBc4zUFhg",
+    authDomain: "testapp-c9a4c.firebaseapp.com",
+    databaseURL: "https://testapp-c9a4c-default-rtdb.firebaseio.com",
+    projectId: "testapp-c9a4c",
+    storageBucket: "testapp-c9a4c.appspot.com",
+    messagingSenderId: "8298539069",
+    appId: "1:8298539069:web:3c8d94560ce08d11dbe254"
 };
 const firebaseApp = initializeApp(firebaseConfig);
 const port = 5000;
-
 
 app.post('/signup', (req, res) => {
     console.log(req);
@@ -32,13 +36,31 @@ app.post('/signup', (req, res) => {
             // Signed up 
             const user = userCredential.user;
             // ...
-            res.send('Signup successful');
+            res.json({ loggedIn: true, message: 'Signup successful' });
         })
         .catch((error) => {
             const errorCode = error.code;
             const errorMessage = error.message;
             // ..
-            res.status(500).send(errorMessage);
+            res.status(500).json({ loggedIn: false, message: errorMessage });
+        });
+});
+
+app.post('/login', (req, res) => {
+    const { email, password } = req.body;
+    const auth = getAuth();
+    signInWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+            // Logged in
+            const user = userCredential.user;
+            // ...
+            res.json({ loggedIn: true, message: 'Login successful' });
+        })
+        .catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            // ..
+            res.status(500).json({ loggedIn: false, message: errorMessage });
         });
 });
 
